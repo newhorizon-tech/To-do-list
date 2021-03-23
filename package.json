@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack serve"
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/dasileker/To-do-list#readme",
   "devDependencies": {
     "css-loader": "^5.1.1",
+    "jest": "^26.6.3",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
