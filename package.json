@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/dasileker/To-do-list#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
     "css-loader": "^5.1.1",
     "jest": "^26.6.3",
     "sass": "^1.32.8",
