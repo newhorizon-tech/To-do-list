@@ -1,7 +1,8 @@
 import './styles.scss';
 
 import projectFactory from './factory';
-import { initialize, saveData } from './storagedata';
+import initialize from './storagedata';
+import saveData from './savedata';
 import displayProjects from './display'; // eslint-disable-line
 
 const initialData = initialize([], 0);
