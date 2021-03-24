@@ -1,9 +1,8 @@
-const getData = (DataName) => JSON.parse(localStorage.getItem(DataName));
+import saveData from './savedata';
 
-const saveData = (projects, id) => {
-  localStorage.setItem('projects', JSON.stringify(projects));
-  localStorage.setItem('currentId', id);
-};
+import getData from './getData';
+
+// const getData = (DataName) => JSON.parse(localStorage.getItem(DataName));
 
 const initialize = (projects, id) => {
   if (localStorage.getItem('projects') == null) {
