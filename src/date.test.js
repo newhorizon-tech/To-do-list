@@ -1,5 +1,3 @@
-// const formatDate = require('./display');
-
 import formatDate from './date';
 
 test('Displays formatted output for specific date', () => {
