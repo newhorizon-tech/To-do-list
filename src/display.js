@@ -51,4 +51,4 @@ const displayProjects = (projects) => {
   });
 };
 
-export { displayProjects, formatDate };
+export default displayProjects;
