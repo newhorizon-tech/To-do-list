@@ -12,6 +12,9 @@ This is a mini-project that allows you to
 
 ![Projects Screenshot](./img/screenshot2.png)
 
+![Testing Screenshot](./img/screenshot-test.png)
+
+
 ### Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/dasileker/To-do-list/23e859ea84c544538c270f6427dcd78bc29af673/dist/index.html)
@@ -22,6 +25,8 @@ This is a mini-project that allows you to
 - Javascript
 - Atom
 - VS Code
+- Jest
+- Babel
 
 
 ## Getting Started
@@ -29,6 +34,12 @@ This is a mini-project that allows you to
 - Clone the repository
 - Navigate to the root directory of the project
 - Open index.html or run it using your own live server
+
+## Testing instructions
+
+- Navigate to the root directory of the project
+- Run `npm install` to install all the dependencies
+- Run `npm test` to run the test suites
 
 ## Authors
 
