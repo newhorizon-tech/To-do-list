@@ -1,9 +1,4 @@
-const getData = (DataName) => JSON.parse(localStorage.getItem(DataName));
-
-const saveData = (projects, id) => {
-  localStorage.setItem('projects', JSON.stringify(projects));
-  localStorage.setItem('currentId', id);
-};
+import getData from './getData';
 
 const initialize = (projects, id) => {
   if (localStorage.getItem('projects') == null) {
@@ -20,4 +15,4 @@ const initialize = (projects, id) => {
   return ({ projects, id });
 };
 
-export { initialize, saveData };
+export default initialize;
